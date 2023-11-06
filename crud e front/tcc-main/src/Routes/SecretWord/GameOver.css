@@ -1,0 +1,40 @@
+.gameover {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameover h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.gameover h2 {
+    font-size: 1.5em;
+}
+
+.gameover h2 span {
+    color: cadetblue;
+    font-weight: bold;
+}
+
+.btn-start {
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    background: #369BF9;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 20px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.btn-start:hover {
+    background: #1986ec;
+}

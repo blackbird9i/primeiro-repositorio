@@ -1,0 +1,115 @@
+.container {
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-termos {
+    display: inline-block;
+    max-width: 300px;
+    margin-top: 15px;
+}
+
+.checkbox-container p {
+    font-size: 1em;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.checkbox-container span {
+    color: #369BF9;
+    font-weight: bold;
+}
+
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .checkbox-container input {
+    position: absolute;
+    height: 0;
+    width: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .checkbox-container .checkmark {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    background-color: #ddd;
+    transition: all 0.2s;
+  }
+  
+  .checkbox-container:hover input ~ ,.checkmark {
+    background-color: #ccc;
+  }
+  
+  .checkbox-container input:checked ~ .checkmark {
+    background-color: #369BF9;
+  }
+  
+  .checkbox-container .checkmark:after {
+    content: "";
+    display: none;
+    position: absolute;
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 13px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+  
+  .checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .container-password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    max-width: 350px;
+  }
+
+  .password {
+    width: 100%;
+    position: relative;
+  }
+
+ .eye {
+    position: absolute;
+    opacity: 70%;
+    color: #2D2E2E;
+    font-size: 1.5em;
+    padding: 7px;
+    cursor: pointer;
+    margin-left: 10em;
+    background: none;
+    box-shadow: none;
+  }
+
+  .eye:hover {
+    background: none;
+  }
+
+  @media screen and (min-width: 450px) {
+    .eye {
+        margin-left: 13em;
+    }
+  }

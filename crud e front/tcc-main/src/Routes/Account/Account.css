@@ -1,0 +1,23 @@
+.account-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.account-container .title {
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.account-container .trophy {
+    display: flex;
+    align-items: center;
+    font-size: 1.6em;
+    gap: 10px;
+}
+
+.account-container .trophy img {
+    width: 100%;
+}

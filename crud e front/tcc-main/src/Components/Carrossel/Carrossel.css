@@ -1,0 +1,85 @@
+.container-carrossel{
+    width: 70vw;
+    overflow: hidden;
+}
+
+.container-carrossel .header-carrossel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-carrossel .header-carrossel .arrow {
+    font-size: 1.7em;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.container-carrossel .carrossel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.container-carrossel .carrossel::-webkit-scrollbar {
+    display: none;
+}
+
+.container-carrossel .carrossel .item {
+    margin: 30px 10px 10px 10px;
+    padding: 10px;
+    width: 14em;
+    text-decoration: none;
+    flex: none;
+    transition: .3s;
+}
+
+.container-carrossel .carrossel .item:hover {
+    transform: translateY(-25px);
+} 
+
+.container-carrossel .carrossel .item .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+
+.container-carrossel .carrossel .item .title {
+    height: 30px;
+    text-align: center;
+    margin: 10px;
+}
+
+.container-carrossel .carrossel .item .title span {
+    font-size: 1.2em;
+    color: whitesmoke;
+    text-transform: capitalize;
+}
+
+@media (max-width: 1440px) {
+    .container-carrossel .carrossel .item {
+        width: 8.5em;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .container-carrossel .header-carrossel {
+        font-size: .7em;
+    }
+    .container-carrossel .header-carrossel .arrow  {
+        font-size: 1.3em;
+    }
+    .container-carrossel .carrossel .item {
+        width: 5.7em;
+    }
+
+    .container-carrossel .carrossel .item .title span {
+        font-size: 1em;
+    }
+}
