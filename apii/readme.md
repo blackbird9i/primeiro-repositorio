@@ -1,16 +1,23 @@
 sequencia para abrir o projeto
 
-criar arquivo package
-### npm init
+
 
 gerenciar as restrições, rotas e urls, untre outra funcionalidades
 ### npm install --save express
+
+nodemon
 
 para instalar de forma global
 ### npm install -g nodemon
 
 instalar de forma local e gravando como desenvolvedor 
 ### npm install --save-dev nodemon
+
+para criar token
+###  npm install --save jsonwebtoken
+
+para criptografar
+### npm install --save bcryptjs
 
 rodar o projeto
 ### node app.js
@@ -27,6 +34,9 @@ inicial o cria o arquivo
 driver para banco de dados
 ### npm install --save mysql2
 
+cors
+###
+
 banco de dados
 ### create database projeto 
 ### character set utf8mb4
@@ -40,6 +50,12 @@ criar a models usuarios
 
 executar migrations
 ### npx sequelize-cli db:migrate
+
+criando seeders
+###  npm install cors
+
+executar seeders
+### npx sequelize-cli db:seed:all
 
 abra o seu servidor
 ### http://localhost:8080

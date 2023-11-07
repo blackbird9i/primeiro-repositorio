@@ -1,0 +1,73 @@
+.container {
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.spanContainer a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.spanContainer {
+    margin: 15px;
+}
+
+.divider {
+    margin: 15px;
+    position: relative; 
+    padding: 0 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.divider::after,
+.divider::before {
+    content: ""; 
+    position: absolute; 
+    top: 50%; 
+    height: 3px; 
+    width: 6.5em;
+    background-color: aliceblue;
+}
+
+.divider::before {
+    left: 0; 
+    transform: translateX(-100%);
+}
+
+.divider::after {
+    right: 0; 
+    transform: translateX(100%);
+}
+
+.socialMediaLogin {
+    display: flex;
+    gap: 4em;
+    margin-top: 15px;
+}
+
+.register{
+    font-size: 1.1em;
+    color: aliceblue;
+    text-decoration: none;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.register span {
+  color: #369BF9;
+}
+
+.container form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}

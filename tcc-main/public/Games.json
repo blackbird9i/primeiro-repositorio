@@ -1,0 +1,77 @@
+[
+    {
+        "id": "1",
+        "name": "Secret Word",
+        "link": "/SecretWord",
+        "img": "./GameIcon/SecretWord.png"
+    },
+    {
+        "id": "2",
+        "name": "jogo da memoria",
+        "link": "https://rachacuca.com.br/passatempos/jogo-da-memoria/",
+        "img" : "./GameIcon/jogo_da_memoria.png"
+    },
+
+    {
+        "id": "3",
+        "name": "jogo da forca",
+        "link": "https://rachacuca.com.br/palavras/jogo-da-forca/",
+        "img" : "./GameIcon/carrasco.png"
+    },
+    {
+        "id": "4",
+        "name": "sudoku",
+        "link": "https://www.geniol.com.br/logica/sudoku/",
+        "img" : "./GameIcon/sudoku.png"
+    },
+    {
+        "id": "5",
+        "name": "xadrez",
+        "link": "https://www.chess.com/pt-BR/play/computer",
+        "img" : "./GameIcon/xadrez.png"
+    },
+    {
+        "id": "6",
+        "name": "jogo de damas",
+        "link": "https://www.geniol.com.br/logica/sudoku/",
+        "img" : "./GameIcon/jogo-de-damas.png"
+    },
+    {
+        "id": "7",
+        "name": "Imaginação",
+        "link": "https://gartic.com.br/",
+        "img" : "./GameIcon/imagem_acao.jpeg"
+    },
+    {
+        "id": "8",
+        "name": "jogo da memoria",
+        "link": "https://rachacuca.com.br/passatempos/jogo-da-memoria/",
+        "img" : "./GameIcon/jogo_da_memoria.png"
+    },
+
+    {
+        "id": "9",
+        "name": "jogo da forca",
+        "link": "https://rachacuca.com.br/palavras/jogo-da-forca/",
+        "img" : "./GameIcon/carrasco.png"
+    },
+    {
+        "id": "10",
+        "name": "sudoku",
+        "link": "https://www.geniol.com.br/logica/sudoku/",
+        "img" : "./GameIcon/sudoku.png"
+    },
+    {
+        "id": "11",
+        "name": "xadrez",
+        "link": "https://www.chess.com/pt-BR/play/computer",
+        "img" : "./GameIcon/xadrez.png"
+    },
+    {
+        "id": "12",
+        "name": "jogo de damas",
+        "link": "https://www.geniol.com.br/logica/sudoku/",
+        "img" : "./GameIcon/jogo-de-damas.png"
+    }
+
+]

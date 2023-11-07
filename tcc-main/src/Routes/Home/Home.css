@@ -1,0 +1,41 @@
+.container-page {
+    display: flex;
+}
+
+main {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 1.4em;
+}
+
+hr {
+    margin: 40px 0;
+    border: 3px solid rgba(0, 0, 0, 0.25);;
+}
+
+@media (max-width: 1440px) {
+    .container-page header {
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 800px) {
+    .container-page {
+        flex-direction: column;
+    }
+
+    .container-page header {
+        margin: 0;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+     hr {
+        width: 70%;
+     }
+}

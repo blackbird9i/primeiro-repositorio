@@ -1,0 +1,12 @@
+#BtnFacebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    color: #1877f2;
+    font-size: 5em;
+    background-color: aliceblue;
+    width: .86em;
+    height: .85em;
+}
+

@@ -1,0 +1,27 @@
+.menu-container {
+margin: 0;
+padding: 0;
+cursor: pointer;
+transition: .3s;
+}
+
+.menu-btn {
+    display: flex;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 20px 1vw;
+    justify-content: flex-start;
+    font-size: 1.2em;
+    align-items: center;
+    gap: 8px;
+    margin-left: 15px;
+}
+
+.icon {
+    font-size: 1.8em;
+    margin-bottom: -8px;
+}
+
+.menu-container:hover {
+background-color: rgba(0, 0, 0, 0.3);
+}
