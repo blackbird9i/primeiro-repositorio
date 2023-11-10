@@ -63,3 +63,11 @@
 .register span {
   color: #369BF9;
 }
+
+.container form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}

@@ -3,9 +3,10 @@
 import "./Avatar.css";
 
 // React
-const defaultAvatar = "user.png";
 
 const Avatar = ({ image, name, width, height }) => {
+  const defaultAvatar = "user.png";
+
   return (
     <div className="container-avatar">
       <img

@@ -15,7 +15,7 @@ import ListButton from "../ListButtom/ListButton";
 import { useState } from "react";
 
 const Sidebar = () => {
-  const userImg = "./Perfil.jpeg";
+  const userImg = "";
   const [isActiveMenu, setiSActiveMenu] = useState(false);
 
   const ActiveMenu = () => {
@@ -35,7 +35,7 @@ const Sidebar = () => {
         <div className="avatar">
           <Avatar
             image={userImg}
-            name={"Thifany"}
+            name={""}
             width="115px"
             height="115px"
           />

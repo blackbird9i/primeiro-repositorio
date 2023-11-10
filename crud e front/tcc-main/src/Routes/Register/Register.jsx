@@ -1,28 +1,28 @@
   
 // React
 import { FaEye, FaEyeSlash } from "react-icons/fa";
-import { useState } from "react";
+import { useRef, useState } from "react";
 
 // CSS
 import "./Register.css";
 
 // Components
 import ImagenPerfil from "../../Components/ImagenPerfil/ImagenPerfil";
-import { Home } from "@mui/icons-material";
+import { ref } from "yup";
 
 
 const Register = () => {
   const [showPassword, setShowPassword] = useState(false);
+  const checkboxRef = useRef();
   const [formData, setFormData] = useState({
     nome: "",
     email: "",
     telefone: "",
     senha: "",
-   
   }
-  
   )
   
+
   const handleInputChange = (e) => {
     const { name, value, type, checked } = e.target;
     setFormData({
@@ -38,7 +38,8 @@ const Register = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Aqui você pode fazer a solicitação para a API
+    if(checkboxRef.current.checked) {
+      // Aqui você pode fazer a solicitação para a API
     // Certifique-se de substituir 'sua_api_endpoint' pela URL da sua API
     fetch(' http://localhost:8080/cadastrar', {
       method: 'POST',
@@ -62,12 +63,16 @@ const Register = () => {
       .catch((error) => {
         console.error('Erro ao enviar o formulário:', error);
       });
+    } else {
+      console.error("Algo de errado")
+    }
+
+   
   };
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
-      <div className="container">
+
+      <form className="container"  onSubmit={handleSubmit}>
       <ImagenPerfil />
       
         <input
@@ -109,7 +114,7 @@ const Register = () => {
             <input
               type="checkbox"
               name="aceitarTermos"
-              checked={formData.aceitarTermos}
+              ref={checkboxRef}
               onChange={handleInputChange}
             />
             <span className="checkmark"></span>
@@ -120,10 +125,8 @@ const Register = () => {
           </label>
         </div>
         <button type="submit"onSubmit={handleSubmit}>Inscreva-se</button>
-      
-    </div>
     </form>
-    </div>
+
   );
 };
 
