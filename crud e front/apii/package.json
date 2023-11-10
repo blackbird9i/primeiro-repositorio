@@ -17,12 +17,12 @@
     "express-mysql-session": "^3.0.0",
     "jsonwebtoken": "^9.0.2",
     "mysql": "^2.18.1",
-    "mysql2": "^3.6.2",
+    "mysql2": "^3.6.3",
     "session": "^0.1.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.1",
-    "sequelize": "^6.33.0",
-    "sequelize-cli": "^6.6.1"
+    "sequelize": "^6.34.0",
+    "sequelize-cli": "^6.6.2"
   }
 }

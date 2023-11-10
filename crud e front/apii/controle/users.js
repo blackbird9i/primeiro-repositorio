@@ -84,15 +84,12 @@ router.post("/login", async (req,res)=>{
             mensagem:'email ou senha incorreto'
         })
     }
-    var token = jwt.sign({id:user.id},'dsadfgdjhmfdakbmklfmbkaf',{
-        //expiresIn:600//10min
-        expiresIn:'1d' //7 dias
-    })
+    
 
     return res.json({
         erro: false,
-        mensagem:'ola',
-        token
+        mensagem:'ola'
+        
     })
 })
 
