@@ -5,37 +5,37 @@ module.exports = {
   async up (queryInterface, Sequelize) {
     return queryInterface.bulkInsert('Users', [{
       nome: 'John',
-      email: 'Doe@doe',
+      email: 'manda@pix',
       telefone: 3956157656,
-      senha: 'John',
+      senha: '7110eda4d09e062aa5e4a390b0a572ac0d2c0220',
       createdAt: new Date(),
       updatedAt: new Date()
     },{
-      nome: 'John',
-      email: 'Doe@doe',
+      nome: 'travolta',
+      email: 'chu@lapa',
       telefone: 3956157656,
-      senha: 'jlkj',
+      senha: 'd2f75e8204fedf2eacd261e2461b2964e3bfd5be',
       createdAt: new Date(),
       updatedAt: new Date()
     },{
-      nome: 'jgl,kjkl,',
-      email: 'Doe@doe',
+      nome: 'michal',
+      email: 'psiqui@atra',
       telefone: 3956157656,
-      senha: 'John',
+      senha: 'ae8fe380dd9aa5a7a956d9085fe7cf6b87d0d028',
       createdAt: new Date(),
       updatedAt: new Date()
     },{
-      nome: 'asdgdf',
-      email: 'Doe@doe',
+      nome: 'jackson',
+      email: 'samu@el',
       telefone: 3956157656,
-      senha: 'hjkfh',
+      senha: '83787f060a59493aefdcd4b2369990e7303e186e',
       createdAt: new Date(),
       updatedAt: new Date()
     },{
-      nome: 'jidjhds',
+      nome: 'cage',
       email: 'Doe@doe',
       telefone: 3956157656,
-      senha: 'pi',
+      senha: '2abd55e001c524cb2cf6300a89ca6366848a77d5',
       createdAt: new Date(),
       updatedAt: new Date()
     }
